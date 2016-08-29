@@ -6,6 +6,7 @@
 
 /* Global Styles */
 
+
 html,
 body {
     height: 100%;
@@ -90,4 +91,11 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+.img-center {
+    margin: 0 auto;
+}
+.content-new {
+    margin: 20px;
 }
