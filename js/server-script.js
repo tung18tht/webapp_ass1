@@ -25,7 +25,12 @@ app.set('view engine','jade');
 app.use("/css",  express.static(__dirname + '/../css'));
 app.use("/js", express.static(__dirname + '/../js'));
 app.use("/font", express.static(__dirname + '/../font'));
-app.use("/images",  express.static(__dirname + '/../images'));
+app.use("/img_about",  express.static(__dirname + '/../img_about'));
+app.use("/img_home",  express.static(__dirname + '/../img_home'));
+app.use("/img_member",  express.static(__dirname + '/../img_member'));
+app.use("/img_new",  express.static(__dirname + '/../img_new'));
+app.use("/img_swarms_project",  express.static(__dirname + '/../img_swarms_project'));
+app.use("/img_archives_project",  express.static(__dirname + '/../img_archives_project'));
 
 //index handler
 app.get('/', function(req, res){
