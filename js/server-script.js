@@ -32,6 +32,7 @@ app.use("/img_new",  express.static(__dirname + '/../img_new'));
 app.use("/img_swarms_project",  express.static(__dirname + '/../img_swarms_project'));
 app.use("/img_archives_project",  express.static(__dirname + '/../img_archives_project'));
 app.use("/img",  express.static(__dirname + '/../img'));
+app.use("/img_new",  express.static(__dirname + '/../img_new'));
 
 //index handler
 app.get('/', function(req, res){
